@@ -17,7 +17,7 @@ body {
         height: 400px; /* You must set a specified height */
         background-position: center center fixed; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
+        background-size: contain; /* Resize the background image to cover the entire container */
        
 }
 
