@@ -77,8 +77,9 @@ body {
 .story{
     overflow-x: hidden;
     background: linear-gradient(rgba(204, 209, 203, 0.527),rgba(167, 216, 161, 0.575)) ; /* The image used */
-  
-   height: 350px; /* You must set a specified height */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+   height: 400px; /* You must set a specified height */
    background-position: center center fixed; /* Center the image */
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover; /* Resize the background image to cover the entire container */
@@ -88,7 +89,7 @@ body {
 .story p{
     text-align:justify;
     font-family:sans-serif;
-    color:rgb(0, 0, 0);
+    color:rgb(63, 55, 55);
     text-decoration: rgb(247, 248, 248);
     font-size:18px;
     

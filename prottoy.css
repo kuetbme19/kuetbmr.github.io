@@ -1,0 +1,21 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+   
+}
+
+.profile_pic img{
+
+	object-fit:contain;
+	
+}
+
+.share-container i{
+	padding: 0px 20px 0px;
+}
